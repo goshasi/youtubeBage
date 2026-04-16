@@ -7,6 +7,7 @@
   --yt-background: #ecf1fb;
   --yt-background2: #f2f2f2;
   --yt-colortext: #909090;
+  --yt-border: #e6e6e6;
 }
 .center {
   display: flex;
@@ -15,10 +16,11 @@
 }
 /** header **/
 header {
-  width: 100%;
+  padding: 15px 30px;
 }
 .buttons {
-  width: 30%;
+  align-items: center;
+  column-gap: 20px;
 }
 .profileİmge {
   width: 40px;
@@ -28,25 +30,44 @@ header {
 }
 .addingİcon {
   background-color: var(--yt-background2);
+  padding: 10px 16px;
+
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  border-radius: 18px;
 }
 .navSection {
   width: 30%;
-  display: flex;
-  justify-content: space-between;
+  /*display: flex;
+  justify-content: space-between;*/
 }
 nav {
   width: 95%;
-  border: 1px solid;
+  border: 1px solid var(--yt-border);
   border-radius: 50px;
+  align-items: center;
+  padding: 0 10px;
+}
+i {
+  font-size: 18px;
+}
+.bell {
+  font-size: 25px;
+}
+.keyboard {
+  color: var(--yt-colortext);
+  margin-left: 10px;
 }
 .logo {
-  width: 20%;
+  align-items: center;
+  gap: 15px;
+  margin: 5px;
 }
 .mic {
   background-color: var(--yt-background2);
-  width: 50px;
-  height: 50px;
-  border: 0;
   border-radius: 50%;
+  padding: 14px;
+  margin: 0 10px;
 }
 /**   **/
