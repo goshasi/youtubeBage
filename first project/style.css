@@ -1,3 +1,52 @@
-h1 {
-  color: red;
+* {
+  padding: 0;
+  margin: 0;
 }
+:root {
+  --yt-hover: #d9d9d9;
+  --yt-background: #ecf1fb;
+  --yt-background2: #f2f2f2;
+  --yt-colortext: #909090;
+}
+.center {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+/** header **/
+header {
+  width: 100%;
+}
+.buttons {
+  width: 30%;
+}
+.profileİmge {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+}
+.addingİcon {
+  background-color: var(--yt-background2);
+}
+.navSection {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  width: 95%;
+  border: 1px solid;
+  border-radius: 50px;
+}
+.logo {
+  width: 20%;
+}
+.mic {
+  background-color: var(--yt-background2);
+  width: 50px;
+  height: 50px;
+  border: 0;
+  border-radius: 50%;
+}
+/**   **/
